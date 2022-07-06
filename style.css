@@ -26,6 +26,7 @@ body{
 .donate-now{
     text-align: center;
     margin-bottom: 100px;
+    font-size: 20px;
 }
 .box{
     display:flex;
@@ -37,13 +38,6 @@ body{
     border-radius: 5px;
     margin-left: 50px;
     background-image: linear-gradient(gray,rgb(196, 191, 196));
-}
-#orange{
-    padding: 40px 50px;
-    color:rgb(1, 7, 13);
-    border-radius: 5px;
-    margin-left: 50px;
-    background-image: linear-gradient(rgb(128, 128, 128),rgb(196, 192, 191));
 }
 .make-box{
     padding: 15px;
