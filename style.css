@@ -4,13 +4,13 @@ body{
 }
 .donate-here{
     background-image: url(images/donation13.jpg);
-    background-attachment: fixed;
     background-size: 150% 150%;
     background-repeat: no-repeat;
     background-position: center;
     height:450px;
     font-size: 30px;
     text-align: center;
+    padding: 5%;
 } 
 .sufferer{
     color: whitesmoke;
@@ -38,6 +38,9 @@ body{
     border-radius: 5px;
     margin-left: 50px;
     background-image: linear-gradient(gray,rgb(196, 191, 196));
+}
+#solid{
+    border: 5px solid orange;
 }
 .make-box{
     padding: 15px;
