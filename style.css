@@ -1,15 +1,15 @@
 body{
     font-family: 'Lato', sans-serif;
-   margin:0;
+   font-size: 20px;
 }
-section{
+.donate-here{
     background-image: url(images/donation13.jpg);
     background-attachment: fixed;
     background-size: 150% 150%;
     background-repeat: no-repeat;
     background-position: center;
     height:450px;
-    font-size:25px;
+    font-size: 30px;
     text-align: center;
 } 
 .sufferer{
@@ -21,5 +21,56 @@ section{
     padding: 5px 20px;
     color:aliceblue;
     border-radius: 5px;
-    background-image: linear-gradient(pink,purple);
+    background-image: linear-gradient(orange ,tomato);
+}
+.donate-now{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.box{
+    display:flex;
+    margin-bottom: 90px; 
+}
+.money-amount{
+    padding: 40px 50px;
+    color:rgb(1, 7, 13);
+    border-radius: 5px;
+    margin-left: 50px;
+    background-image: linear-gradient(gray,rgb(196, 191, 196));
+}
+#orange{
+    padding: 40px 50px;
+    color:rgb(1, 7, 13);
+    border-radius: 5px;
+    margin-left: 50px;
+    background-image: linear-gradient(rgb(128, 128, 128),rgb(196, 192, 191));
+}
+.make-box{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+#food{
+    background-color: aquamarine;
+}
+#medicine{
+    background-color: aqua;
+}
+#shelter{
+    background-color: bisque;
+}
+#pink{
+    background-color: rgb(255, 94, 0);
+}
+#shape{
+    padding: 50px;
+    margin-right: 350px;
+    margin-left: 350px;
+    background-color: rgba(255, 127, 80, 0.808);
+}
+footer{
+    background-color: black;
+    color: brown;
+    text-align:center;
+    padding:15px;
 }
